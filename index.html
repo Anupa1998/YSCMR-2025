@@ -10,23 +10,7 @@
 
 <body>
   
-  <!-- <nav>
-    <div class="nav-container">
-        <div class="logo-wrapper">
-            <p style="margin: 0; font-size: large; font-weight: bold;">YSCMR - 2025</p>
-        </div>
 
-        <div class="link-wrapper">
-            <ul>
-              <li><a href="">Home</a></li>
-              <li><a href="">About</a></li>
-              <li><a href="">Dates</a></li>
-              <li><a href="">Sub Themes</a></li>
-              <li><a href="">Committee</a></li>
-            </ul>
-        </div>
-    </div>
-  </nav> -->
 
 
   <nav>
@@ -41,13 +25,47 @@
 
       </div>
 
-        <div class="link-wrapper" id="navLinks">
-          <ul>
-            <li><a href="">Home</a></li>
-            <li><a href="">About</a></li>
-            <li><a href="">Dates</a></li>
-            <li><a href="">Sub Themes</a></li>
-            <li><a href="">Committee</a></li>
+        <!-- <div class="link-wrapper" id="navLinks">
+          <ul class="pc" >
+            <li><a href="#home" >Home</a></li>
+            <li><a href="#about" >About</a></li>
+            <li><a href="#dates" >Dates</a></li>
+            <li><a href="#themes" >Themes</a></li>
+            <li><a href="#guidlines" >Guidelines</a></li>
+            <li><a href="#comittee" >Committee</a></li>
+          </ul>
+
+          <ul class="mobile" style="display: none;" id="mobile">
+            <li><a href="#home" onclick="closeNav()">Home</a></li>
+            <li><a href="#about" onclick="closeNav()">About</a></li>
+            <li><a href="#dates" onclick="closeNav()">Dates</a></li>
+            <li><a href="#themes" onclick="closeNav()">Themes</a></li>
+            <li><a href="#guidlines" onclick="closeNav()" >Guidelines</a></li>
+            <li><a href="#comittee" onclick="closeNav()">Committee</a></li>
+          </ul>
+        </div> -->
+
+        <!-- pc -->
+        <div class="link-wrapper" id="pc">
+            <ul>
+              <li><a href="#home" >Home</a></li>
+              <li><a href="#about" >About</a></li>
+              <li><a href="#dates" >Dates</a></li>
+              <li><a href="#themes" >Themes</a></li>
+              <li><a href="#guidlines">Guidelines</a></li>
+              <li><a href="#comittee" >Committee</a></li>
+          </ul>
+        </div>
+
+        <!-- mobile -->
+        <div class="link-wrapper " id="mobile">
+            <ul>
+            <li><a href="#home" onclick="closeNav()">Home</a></li>
+            <li><a href="#about" onclick="closeNav()">About</a></li>
+            <li><a href="#dates" onclick="closeNav()">Dates</a></li>
+            <li><a href="#themes" onclick="closeNav()">Themes</a></li>
+            <li><a href="#guidlines" onclick="closeNav()" >Guidelines</a></li>
+            <li><a href="#comittee" onclick="closeNav()">Committee</a></li>
           </ul>
         </div>
     </div>
@@ -55,7 +73,7 @@
 
   
   <header>
-    <div class="main">
+    <div class="main" id="home">
       <div class="overlay">
         <div class="content">
           <h1>YSCMR 2025</h1>
@@ -81,8 +99,8 @@
 
 
 
-  <div class="section about-section">
-    <div class="section-wrapper">
+  <div class="section about-section" id="about">
+    <div class="section-wrapper" >
 
       <div class="about-content">
         <div class="image-wrapper">
@@ -119,7 +137,7 @@
   </div>
 
 
-      <div class="section about-section">
+      <div class="section about-section" id="dates">
         <h2>Important Dates</h2>
     
         <div class="section-wrapper">
@@ -169,7 +187,7 @@
 
 
 
-      <div class="section">
+      <div class="section" id="themes">
         <h2>Sub Themes</h2>
     
         <div class="section-wrapper theme-wrapper">
@@ -246,12 +264,66 @@
       </div>
 
 
+    
+       <div class="section" id="guidlines">
+          <h2>Guidelines</h2>
+    
+          <div class="section-wrapper theme-wrapper">
+              <div class="theme-box">
+                <h4>Fees</h4>
+
+                <table class="fee-table">
+                    <thead>
+                      <tr>
+                        <th>Category</th>
+                        <th>Fee</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>Local</td>
+                        <td>LKR 1,500.00</td>
+                      </tr>
+                      <tr>
+                        <td>Foreign</td>
+                        <td>USD 20.00</td>
+                      </tr>
+                    </tbody>
+                </table>
+              </div>
+
+              <div class="theme-box">
+                <h4>Guidlines</h4>
+
+                <p style="margin: 20px 0;">Postgraduate students, undergraduates and early career researchers are invited to submit abstracts under the themes.</p>
+
+                <a class="guidlinebutton" href="">Download Guidlines</a>
+             
+
+              </div>
+
+              <div class="theme-box">
+                <h4 style="margin-bottom: 20px;">Abstract Template</h4>
+
+                <p style="margin-bottom: 20px;">Please ensure your abstract follows the provided format.</p>
+                <a class="guidlinebutton" href="">Download Abstract Template</a>
+
+              </div>
 
 
 
 
 
-      <div class="section">
+              <!-- <h4>Fees</h4> -->
+
+              
+          </div>
+      </div>
+
+
+
+
+      <div class="section" id="comittee">
         <h2>Organizing Committee</h2>
     
         <div class="section-wrapper">

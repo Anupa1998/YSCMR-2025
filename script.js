@@ -50,18 +50,31 @@ const milestones = [
   updateCountdown();
 
 
+  // const navLinks = document.getElementById('navLinks');
+
+  // function toggleMenu() {
+  //   if (navLinks.style.display === 'flex') {
+  //     navLinks.style.display = 'none';
+  //   } else {
+  //     navLinks.style.display = 'flex';
+  //   }
+  // }
+
+// const navLinks = document.getElementById('mobile');
+
+// function toggleMenu() {
+//     if(navLinks.style.display === 'none'){
+//       navLinks.style.display = 'block!important'
+//     }
+// }
 
 
+const navLinks = document.getElementById('mobile');
 
+function toggleMenu() {
+  navLinks.classList.toggle('show');
+}
 
-
-
-
-  function toggleMenu() {
-    const navLinks = document.getElementById('navLinks');
-    if (navLinks.style.display === 'flex') {
-      navLinks.style.display = 'none';
-    } else {
-      navLinks.style.display = 'flex';
-    }
-  }
+function closeNav() {
+  navLinks.classList.remove('show');
+}
