@@ -1,6 +1,6 @@
 const milestones = [
-    { title: "First Call for Abstracts", date: new Date("May 21, 2025 00:00:00") },
-    { title: "Deadline for Abstract Submission", date: new Date("June 30, 2025 23:59:59") },
+    { title: "First Call for Abstracts", date: new Date("May 26, 2025 00:00:00") },
+    { title: "Deadline for Abstract Submission", date: new Date("July 05, 2025 23:59:59") },
     { title: "Camera-Ready Abstract Deadline", date: new Date("August 25, 2025 23:59:59") },
     { title: "Conference Date", date: new Date("November 27, 2025 00:00:00") }
   ];
