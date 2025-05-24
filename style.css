@@ -425,7 +425,6 @@ header {
   border-bottom: 1px solid #ccc;
   margin-top: 64px;
   scroll-margin-top: 70px!important;
-
 }
 
 header .main {
@@ -659,3 +658,5 @@ footer {
   object-fit: contain;
   display: block;
 }
+
+
