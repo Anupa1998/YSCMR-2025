@@ -11,6 +11,29 @@ html{
     scroll-behavior: smooth;
 }
 
+
+html::-webkit-scrollbar-track{
+    background: transparent;
+}
+
+
+html {
+  /* For Firefox */
+  scrollbar-width: thin;
+  scrollbar-color: #004080 transparent;
+}
+
+/* For Chrome, Edge, Safari */
+html::-webkit-scrollbar {
+  width: 0.5rem;
+}
+
+html::-webkit-scrollbar-thumb {
+  background: #004080;
+  border-radius: 5rem;
+}
+
+
 body {
   font-family: "Poppins", sans-serif;
   color: #333;
